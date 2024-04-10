@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <h1>To register yourself please fill the form</h1>
+    <form id="userdata" action="" >
+      
+       
+        <label>First Name</label>
+        <input type="text" class="fname" id="fname" placeholder="Enter FirstName" required>
+     
+       <label for="LastName">Last Name</label>
+       <input type="text"  id="lname"  placeholder="Enter LastName">
+         
+       <label for="exampleInputEmail1">Email address</label>
+            <input type="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+   
+        
+    
+       
+            <label for="ContactNumber">Contact Number</label>
+              <input type="phone"  id="phone" placeholder="Enter Contact Number">
+       
+
+        
+       
+                <label for="City">City</label>
+                <input type="text"  id="city"  placeholder="Enter City">
+   
+
+           
+       
+                <label for="State">State</label>
+                <input type="text" id="state" placeholder="Enter State">
+             
+           
+     
+        <button type="submit" value="submit" onclick="addData()">Submit</button>
+<hr>
+        <table >
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>phone</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="usertable"></tbody>
+          
+        </table>
+      </form>
+      <script src="form.js"></script>
+</body>
+</html>
